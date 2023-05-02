@@ -105,6 +105,7 @@ class WebcontentConverter {
 
   static Future<String?> webUriToPdf({
     required String uri,
+    Map<String, dynamic>? headers,
     double duration = 2000,
     required String savedPath,
     PdfMargins? margins,
